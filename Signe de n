@@ -1,0 +1,25 @@
+VARIABLES
+    n EST_DU_TYPE NOMBRE
+
+DEBUT_ALGORITHME
+    AFFICHER "Entrez un nombre : "
+    LIRE n
+
+    SI (n > 0) ALORS
+        DEBUT_SI
+            AFFICHER n
+            AFFICHER " est positif."
+        FIN_SI
+    SINON
+        SI (n < 0) ALORS
+            DEBUT_SI
+                AFFICHER n
+                AFFICHER " est négatif."
+            FIN_SI
+        SINON
+            DEBUT_SINON
+                AFFICHER "Le nombre est nul."
+            FIN_SINON
+        FIN_SINON
+    FIN_SINON
+FIN_ALGORITHME
